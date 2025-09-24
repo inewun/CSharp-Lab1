@@ -8,7 +8,7 @@ namespace Arrays
 {
     internal class ArrayTasks
     {
-        // Задание 1: Поиск первого значения
+        // Задание 1. Поиск первого значения
         public int findFirst(int[] arr, int x)
         {
             for (int i = 0; i < arr.Length; i++)
@@ -18,7 +18,7 @@ namespace Arrays
             return -1;
         }
 
-        // Задание 3: Поиск максимального
+        // Задание 3. Поиск максимального
         public int maxAbs(int[] arr)
         {
             int maxIndex = 0;
@@ -37,7 +37,7 @@ namespace Arrays
             return arr[maxIndex];
         }
 
-        // Задание 5: Добавление массива в массив
+        // Задание 5. Добавление массива в массив
         public int[] add(int[] arr, int[] ins, int pos)
         {
             //if (arr == null) arr = new int[0];
@@ -59,7 +59,7 @@ namespace Arrays
             return result;
         }
 
-        // Задание 7: Возвратный реверс
+        // Задание 7. Возвратный реверс
         public int[] reverseBack(int[] arr)
         {
             //if (arr == null) return null;
@@ -74,7 +74,7 @@ namespace Arrays
             return result;
         }
 
-        // Задание 9: Все вхождения
+        // Задание 9. Все вхождения
         public int[] findAll(int[] arr, int x)
         {
             int count = 0;
