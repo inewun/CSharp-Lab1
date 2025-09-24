@@ -21,9 +21,6 @@ namespace Arrays
         // Задание 3: Поиск максимального
         public int maxAbs(int[] arr)
         {
-            if (arr == null || arr.Length == 0)
-                throw new ArgumentException("Array is empty or null");
-
             int maxIndex = 0;
             int maxAbsValue = Math.Abs(arr[0]);
 
